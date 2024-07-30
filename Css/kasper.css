@@ -1085,6 +1085,8 @@ footer .container p.copyright span{
     bottom: 25px;
     right: 25px;
     color: white;
+    z-index: 9999;
+   
    }
    .scroll-to-top span{
     background-color: var(--main-color);
@@ -1094,8 +1096,7 @@ footer .container p.copyright span{
     display: block;
     cursor: pointer;
     text-align: center;
-    z-index: 9999;
-   
+    
    }
    .scroll-to-top span::before{
     font-family:"Font Awesome 5 Free" ;
